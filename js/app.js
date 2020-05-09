@@ -20,7 +20,7 @@ const createReadingListItem = function (form) {
     const readingListItem = document.createElement('li');
     readingListItem.classList.add('reading-list-item');
 
-    const type = document.createElement('p');
+    const type = document.createElement('h2');
     type.textContent = form.type.value;
     readingListItem.appendChild(type);
 

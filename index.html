@@ -4,42 +4,49 @@
         <meta charset="utf-8">
         <title> The Avocado List</title>
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+        <style>
+            
+        </style>
         <script src="js/app.js"></script>
     </head>
     <body>
         <form id="new-item-form">
+            <div class="main-block">
+                <h1>Avocado World</h1>
+            </div>
             <div id="form-wrapper">
+               
 
                 <div class="form-item">
-                    <label for="type" class="primary">Type</label>
-                    <select id="type">
-                        <option value="" disabled selected></option>
-                        <option value="A-Type">A-Type</option>
-                        <option value="B-Type">B-Type</option>
-                    </select>
-                </div>
-                <div class="form-item">
-                    <label for="name" class="primary">Name</label>
+                    <label for="name" class="primary">Name of Avocado:</label>
                     <input type="text" id="name" required/>
                 </div>
                 <div class="form-item">
-                    <label for="origin" class="primary">Origin</label>
+                    <label for="origin" class="primary">Origin:</label>
                     <input type="text" id="origin" required/>
                 </div>
                 <div class="form-item">
-                    <label for="season" class="primary">Season</label>
+                    <label for="season" class="primary">Harvest Season:</label>
                     <input type="text" id="season" required/>
                 </div>
                 <div class="form-item">
-                    <label for="skin" class="primary">Skin</label>
+                    <label for="skin" class="primary">Skin:</label>
                     <select id="skin">
                         <option value="" disabled selected></option>
                         <option value="Smooth">Smooth</option>
                         <option value="Rough">Rough</option>
                     </select>
                 </div>
+                <div class="form-item">
+                    <label for="type" class="primary">Type:</label>
+                    <select id="type">
+                        <option value="" disabled selected></option>
+                        <option value="A-Type">A-Type</option>
+                        <option value="B-Type">B-Type</option>
+                    </select>
+                </div>
             </div>
-            <input type="submit" value="enter"/>
+            <input type="submit" value="Submit"/>
         </form>
         <button id="delete-all">Delete All</button>
         <h1>The List</h1>
