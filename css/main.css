@@ -2,31 +2,63 @@ body {
     font-family: Roboto;
 
 }
+h1 {
+/* #head-wrapper { */
+    width: 100%;
+    display: flex;
+    position: relative;
+    font: 35px Helvetica, Sans-Serif;
+    letter-spacing: -2px;
+    flex-direction: row;
+    justify-content:center;
+    height: 100%;
+    /* color: rgba(0,0,255,0.5); */
+    /* color: #e07a5f95; */
+    color: #fe7f2d80;
+/* } */
+}
+h1:after {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    content: "The Avocado list";
+    position: absolute; left: 3px; top: 1px;
+    /* color: rgba(255,0,0,0.5); */
+    /* color: #81b29a95; */
+    color: #619b8a80;
+}
+h2 {
+    justify-content: center;
+}
 #form-wrapper {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content:center;
     height: 100%;
-    box-shadow: 1px 2px 5px #20639b;
-    /* box-shadow: 1px 2px 5px rgb(0,0,0,.09); */
+    box-shadow: 1px 2px 5px rgb(0,0,0,.09);
+    /* background: #ebebeb; */
 }
 .form-item {
     margin-right: 1.8rem;
-    box-shadow: 1px 2px 5px #f6d55c;
+    box-shadow: 1px 2px 5px rgd(0,0,0,.09);
 }
 label.primary {
     display:block;
     margin: 0.4em 0;
 }
 button:hover {
-    background: #26a9e0; 
+    background: #ebebeb; 
 }
 button, input[type="submit"] {
     margin-top: 1rem;
 }
 button{
     font-size: 14px;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.8rem;
 }
 #reading-list {
     font-family: Roboto;
@@ -39,7 +71,11 @@ button{
     font-family: Roboto;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.8rem;
-    border: 1px solid #20437c;
+    /* border: 1px solid #05386b; */
     border-radius: 5%;
-    background: #f6d55c;
+    background: #3d405b;
+    /* background: #88bdbc; */
+}
+ul {
+    color: azure;
 }
